@@ -1,0 +1,72 @@
+.feed {
+	display: flex;
+	flex:0.6;
+	flex-direction: column;
+	margin: 0px 30px;
+	
+}
+.feed_form{
+	display: flex;
+}
+.feed .feed_input {
+	display: flex;
+	background-color: #393a3c ;
+	padding: 10px;
+	border-radius: 10px;
+	flex-direction: column;
+}
+
+.option{
+	color: #fff;
+}
+.feed .feed_input form {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	flex: 1;
+}
+.feed .feed_input form input[type='text']{
+	flex: 1;
+	border-radius: 10px;
+	background-color: #393a3c;
+	padding: 0px 10px;
+	margin-left: 10px;
+	height: 40px;
+	color:silver ;	
+	outline: 0;
+	border: 1.5px solid rgb(8, 109, 172);
+
+}
+.feed .feed_input form input[type='submit']{
+	background-color: transparent;
+	border-radius: 5px;
+	height: 30px;
+	outline: 0;
+	border: 1px solid rgb(100, 99, 99);
+	cursor: pointer;
+	color: silver;
+}
+.feed_options{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+	
+
+}
+.feed_options .option{
+	display: flex;
+	align-items: center;
+	color: silver;
+	font-size: 14px;
+	border-radius: 20px;
+	/* background-color: #393a3c; */
+	padding: 10px;
+	margin-top: 5px;
+	width: 100px;
+	border: 1px solid rgb(97, 96, 96);
+}
+.feed_options .option:hover{
+	background-color: #393a3c;
+	
+}

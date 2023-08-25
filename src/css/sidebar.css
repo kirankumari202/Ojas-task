@@ -1,0 +1,54 @@
+.sidebar {
+	display: flex;
+	flex: 0.25;
+	flex-direction: column;
+	/* background-color: #393a3c; */
+}
+.sidebar .sidebar_profile {
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	background-color: #393a3c;
+	border-radius: 10px;
+        padding-bottom: 10px;
+	overflow: hidden;
+
+}
+.sidebar .sidebar_profile img{
+	width: 100%;
+	height: 140px;
+	margin-bottom: -30px;
+}
+.profile_details{
+	color: #fff;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+
+}
+.profile_details h4{
+	margin-bottom: 0px;
+}
+.profile_details p{
+	margin: 5px 10px;
+	font-size: 13px;
+	color: 	#F5F5DC; 
+}
+.sidebar_profile .MuiAvatar-circular{
+	width: 60px;
+	height: 60px;
+	margin: 0px auto;
+	object-fit: contain;
+}
+.profile_status{
+	flex-direction: column;
+	color: #fff;
+	text-align: center;
+	
+}
+.new{
+	color: lightskyblue;
+	padding: 30px;
+	/* border-top: 1px solid #ccc; */
+	
+	cursor: pointer;
+}
